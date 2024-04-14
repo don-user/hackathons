@@ -23,7 +23,7 @@ mlmodel:
         - `sample.csv`
 
 2. finetune модели Bert ноутбук `bert_finetune.ipynb`
-3. Получение предсказаний дообученной модели ноутбук `inference_bert.ipynb`
+3. Получение предсказаний дообученной модели ноутбук `predict_bert.ipynb`
 
 ### Запуск сервиса
 

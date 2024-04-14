@@ -36,7 +36,7 @@ class BertForSequenceClassification(nn.Module):
         if inference:
             # Загрузка весов из файла на диске
             weights_path = "Ru-bert-Pavlov-Gusev-fine-tuned.pt"
-            state_dict = torch.load(weights_path)
+            state_dict = torch.load(weights_path, map_location=torch.device('cpu'))
             self.load_state_dict(state_dict)
 
     def forward(self, input_ids, attention_mask=None, head_mask=None, labels=None, return_dict=False):
