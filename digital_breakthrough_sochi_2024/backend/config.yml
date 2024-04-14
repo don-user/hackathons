@@ -1,0 +1,8 @@
+session:
+  key: TLY7ythw4seJjYmBHwmv97GXX6k5DF67rLERSlMf92I=
+database:
+  host: localhost
+  port: 5432
+  user: user
+  password: user
+  database: docs

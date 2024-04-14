@@ -1,0 +1,19 @@
+data:
+  train_size: 0.8
+  val_size: 0.2
+
+model:
+  model_name: IlyaGusev/rubert_telegram_headlines
+  max_seq_length: 128
+  num_classes: 11
+  dropout: 0.2
+
+training:
+  learning_rate: 1e-5
+  adam_epsilon: 1e-8
+  num_epochs: 5
+  batch_size: 24
+
+general:
+  seed: 13
+
